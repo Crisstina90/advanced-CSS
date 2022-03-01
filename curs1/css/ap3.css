@@ -1,0 +1,19 @@
+div{
+    border: 5px solid rgb(51, 151, 168);
+    padding: 20px;
+}
+
+body > div{
+    background-color: brown;
+    color: aliceblue;
+}
+
+div > div{
+    background-color: blueviolet;
+    color: burlywood;
+}
+
+div > div > div{
+    background-color: coral;
+    color: black;
+} 
